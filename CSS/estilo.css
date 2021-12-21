@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scrollbar-color: red;
+}
+body{
+    background-color: #011429;
+
+}
+.fundo-roxo{
+    background-color: #9D259F;
+}
+.alinhar{
+    text-align: center;
+}
+/* Cabeçalho */
+
+header{
+    display: flex;
+    padding: 0px 0px 0px 50px;
+}
+ul{
+    widtH: 536px;
+    height: 132px;
+    list-style: none;
+    position: absolute;
+    display: flex;
+    right: 5px;
+    justify-content: center ;
+    line-height: 20px;
+}
+ul li{
+    padding: 55px 35px;
+    border: 1px solid #011429;
+    border-left: 3px solid #011429;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav  a:hover{
+    transition: 0.2s ease-in-out;
+    background: #011429;
+    color: #9D259F;
+}
+#menu{
+    display: none;
+}
+header > img{
+    width: 100px;
+    height: auto;
+    padding: 10px 0px;
+}
+header > h1{
+    padding: 30px 10px;
+    color: white;
+    font-family: 
+    Rhodium Libre;
+    font-size: 60px;
+}
+span{
+    color: #011429;
+}
+/* Conteudo */
+
+p{
+    /* font-size: 30px; */
+    color: white;
+}
+.cont{
+    margin-left:  10px;
+    background-color: gray;
+    width: 310px;
+    height: 300px;
+    border: 2px solid #9D259F;
+    /* border-radius: 5px; */
+    border-radius: 5%;
+    cursor: pointer;
+}
+.cont:hover{
+    background-attachment: local;
+    transition: 0.1s ease-in-out;
+    transform: scale(0.9);
+    box-shadow: 1px 1px 50px gray;
+}
+section > img{
+    border: 2px solid #9D259F;
+}
+.centralizar{
+    text-align: center;
+}   
+section h1{
+    color:#9D259F;
+}
+#carrocel_auto{
+    background-color: gray;
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
+    border: 2px solid #9D259F;
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+}
+.conteiner{
+    display: flex;
+    padding: 30px 25px;
+}
+.break{
+    flex-wrap: wrap;
+}
+/* Rodape */
+footer{
+    padding: 15px 0px;
+}
+
+/* login */
+.login{
+    margin-top: 30px;
+}
+#senha_esc{
+    padding-left: 50px;
+    text-decoration:underline;
+}
+#senha_esc:hover{
+    color: #011429;
+}
+/* galeria */
+header a img{
+    width: 100px;
+    height: auto;
+    padding: 10px 0px;
+}
+#box{
+    width: 200px;
+    padding: 5px 0px;
+    margin-right:50px;  
+}
+#contato{
+    display: flex;
+    justify-content: center;
+}
+input[type="submit"]{
+    width: 100px;
+    background-color: #9D259F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    box-shadow: 2px 2px 10px black;
+}
+#contato div label{
+    color: gray;
+}
+#aba_menu{
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    /* Menu */
+    #aba_menu{
+        display: flex;
+    }
+    nav{
+        display: none;
+    }
+    ul{
+        position: absolute;
+        top: 170%;
+        right: 5px;
+        text-align: center;
+        width: 140px;
+        height: 100px;
+        flex-direction: column;
+    }
+    ul li{
+        padding: 10px 0px;
+        margin: 10px 0px;
+        background-color: #9D259F;
+        border-radius: 50px;
+        border: none;
+    }
+    #menu{
+        display:flex;
+        padding: 15px 0px;
+        position: absolute;
+        right: 0;
+        width: 80px;
+        height: 60px;
+        cursor: pointer;
+    }
+    /* Cabeçallho */
+    header > img{
+        width: 70px;
+        height: auto;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    header > h1{
+        font-size: 35px;
+    }
+    /* conteudo */
+    .conteiner{
+        flex-direction: column;
+    }
+    .conteiner .break{
+        position: relative;
+    }
+    .cont{
+        margin: 5px 0px;
+        width: 55%;
+        height: auto;
+    }
+    .break{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .cont:hover{
+        transition: 0.5s ease-in-out;
+        margin: 5px 0px;
+        transform: none;
+        width: 63%;
+        height: auto;
+    }
+    header a img{
+        width: 70px;
+        height: auto;
+    }
+    #carrocel_auto{
+        margin-left: 50px;
+        margin-bottom: 5px;
+        width: 350px;
+        height: 300px;
+    }
+    #box{
+        margin-bottom: 150px;
+    }
+    iframe{
+        display: none;
+    }
+
+}
