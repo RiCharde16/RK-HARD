@@ -1,0 +1,9 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476 476" width="476" height="476">
+	<title>Novo Projeto</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #9d259f } 
+	</style>
+	<path id="Forma 1" class="s0" d="m462 214v38h-439v-38h439z" />
+	<path id="Forma 1 copy" class="s0" d="m224 18h38l0 439h-38l0-439z" />
+</svg>
