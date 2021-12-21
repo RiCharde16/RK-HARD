@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK HARD</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="icon" href="img/LogoMarca2.png">
+    <link rel="stylesheet" href="CSS/estilo2.css">
+</head>
+<body>
+    <header class="fundo-roxo" title="RK HARD by Richard">
+        <a href="index.html"><img src="img/LogoMarca.png" alt="Logo"></a>
+        <h1><span>RK</span> HARD</h1>
+        <nav>
+            <ul>
+                <a href="RK_Login.html"><li>Login</li></a>             
+                <a href="RK_Cadastro.html"><li>Cadastrar</li></a>
+                <a href="RK_Galeria.html"><li>Galeria</li></a>               
+                <a href="RK_Contato.html"><li>Contato</li></a>          
+            </ul>
+        </nav>
+        <div id="aba_menu">
+            <img src="img/menu.png" alt="" id="menu" onclick="abrir_menu()">
+        </div>
+    </header>
+    <section>
+        <div id="box2">
+            <div  class="alinhar">
+                <img src="img/LogoMarca.png" alt="" id="logo">
+            </div>
+            <form action="">
+                <label for="Usuario">Usuario</label></br>
+                <input type="text" name="Usuario" class="campo" required>
+            </br>
+                <label for="nome">Nome</label></br>
+                <input type="text" name="nome" class="campo">
+            </br>
+                <label for="email">Email</label></br>
+                <input type="email" name="email" class="campo" required>
+            </br>
+                <label for="senha">Senha</label></br>
+                <input type="password" name="senha" class="campo" required>
+            </br>
+                <label for="senha-conf">Confirma senha</label></br>
+                <input type="password" name="senha-conf" class="campo" required>
+            </br>
+            </br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </section>
+    <footer class="fundo-roxo alinhar">
+        <p> &copy; RK HARD commpany </br> &bigstar; 2021 &bigstar;</p>
+    </footer>
+    <script src="javascript/srcript.js"></script>
+</body>
+</html>
