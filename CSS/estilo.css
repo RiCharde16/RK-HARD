@@ -240,9 +240,6 @@ input[type="submit"]:hover{
     #box{
         margin-bottom: 150px;
     }
-    #box input{
-        background-color: white;
-    }
     iframe{
         display: none;
     }
