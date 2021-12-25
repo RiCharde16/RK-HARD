@@ -83,5 +83,6 @@ label{
     #box input{
         margin: 5px 40px;
         width: 250px;
+        background-color: white;
     }
 }
